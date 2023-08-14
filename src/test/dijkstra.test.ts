@@ -1,4 +1,4 @@
-import Dijkstra from "../dijkstra";
+import Dijkstra from "..";
 
 let find_path = Dijkstra.find_path;
 

@@ -1,4 +1,4 @@
-import { Node } from "../dijkstra";
+import { Node } from "..";
 
 
 export type QueueItem = { value: string, cost: number }

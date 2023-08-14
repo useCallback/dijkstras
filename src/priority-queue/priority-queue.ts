@@ -12,7 +12,7 @@ export class PriorityQueue implements IPriorityQueue {
             throw new Error('Could not delete item')
         }
         console.log("----------queue pop,", this.queue);
-        return { value: deleted_item?.value, cost: deleted_item?.priority }
+        return { value: deleted_item.value, cost: deleted_item.priority }
     };
 
     push(value: string, cost: number) {

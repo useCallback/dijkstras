@@ -1,27 +1,35 @@
 {
-  "name": "dijkstrajs",
-  "version": "1.0.3",
-  "description": "A simple JavaScript implementation of Dijkstra's single-source shortest-paths algorithm.",
+  "name": "dijkstras",
+  "version": "0.0.1",
+  "description": "Efficient implementation of Dijkstra's algorithm, with TypeScript support. This package is designed to be usable in both Node.js and browsers.",
   "main": "dijkstra.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll ",
+    "build": "tsup src/index.ts --format cjs,esm --dts-resolve --minify --clean --sourcemap --dts"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tcort/dijkstrajs"
+    "url": "https://github.com/useCallback/dijkstras.git"
+  },
+  "author": {
+    "name": "Khalfoun Mohamed El Mehdi",
+    "url": "https://github.com/useCallback",
+    "email": "contact.khalfoun@gmail.com"
   },
   "keywords": [
     "dijkstra",
-    "shortest",
-    "path",
-    "search",
-    "graph"
+    "dijkstras",
+    "dijkstra algorithm",
+    "pathfinding",
+    "shortest path",
+    "route finding"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tcort/dijkstrajs/issues"
+    "url": "https://github.com/useCallback/dijkstras/issues"
   },
-  "homepage": "https://github.com/tcort/dijkstrajs",
+  "homepage": "https://github.com/useCallback/dijkstras",
   "devDependencies": {
     "@types/deep-equal": "^1.0.1",
     "@types/jest": "^29.5.3",
