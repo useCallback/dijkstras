@@ -1,5 +1,3 @@
-'use strict';
-
 import { SimplePriorityQueue } from "./priority-queue/simple-priority-queue";
 import { PriorityQueue } from "./priority-queue/priority-queue";
 import { IPriorityQueue, QueueItem } from "./priority-queue/priority-queue.interface";
