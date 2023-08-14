@@ -1,8 +1,10 @@
 {
   "name": "dijkstras",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Efficient implementation of Dijkstra's algorithm, with TypeScript support. This package is designed to be usable in both Node.js and browsers.",
-  "main": "dijkstra.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll ",
